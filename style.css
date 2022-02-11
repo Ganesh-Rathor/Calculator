@@ -1,0 +1,46 @@
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+input{    
+    font-size: 2rem;
+    border-radius: 1rem;
+    border: 0px;
+    background-color: #a6ddab;
+    margin: 1.5rem;
+}
+
+
+button{
+    font-size: 1.5rem;
+    margin: 0.4rem;
+    padding: 0.7rem 1rem;
+    border-radius: 10%;
+    color: darkgreen;
+    border: azure;
+    width: 5rem;
+    border-radius: 1rem;
+}
+.border{
+    display: flex;
+    background-color: #bfffbd;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    border: 0.7rem solid #85ffa0;
+}
+
+@media screen and (max-width: 500px){
+    .border{
+        width:90vw ;
+    }
+    button{
+        width: 50px;
+        margin:2vw;
+        padding: 0;
+    }
+    input{
+        width: 300px;
+    }
+}
